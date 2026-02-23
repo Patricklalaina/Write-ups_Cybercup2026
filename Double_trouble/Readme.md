@@ -133,4 +133,4 @@ print(f"Admin token: {admin_token}")
 
 ```
 
-En entrant le token ainsi construit en tant que auth_token, on obtient l'accés au panil administateur et au flag!
+En entrant le token ainsi construit en tant que auth_token, on obtient l'accés au panel administateur et au flag!
