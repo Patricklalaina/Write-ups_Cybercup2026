@@ -123,7 +123,10 @@ def index():
     return "internal-admin: ok\n"
 ```
 
-Ce qui nous interesse ici, c'est qu'il y a un route `/flag`
+Ce qui nous interesse ici: 
+- il y a un route `/flag`
+- `port 9000` exposé (voir dans docker compose .yml)
+
 De là, j'ai testé `http://127.0.0.1:9000/flag` mais ça n'a pas marché. Oops! XD
 
 
