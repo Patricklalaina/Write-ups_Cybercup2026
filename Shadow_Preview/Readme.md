@@ -140,3 +140,4 @@ function isBlockedHost(hostname) {
 Donc, `127.0.0.1` est bloqué mais vu qu'il ecoute tout les port `0.0.0.0`, pas de soucis! Teste de `http://0.0.0.0:9000/flag`
 
 **_Boom_** ! 🥳 Gagné! Flag trouvé!
+**First Blood** 🩸😎
