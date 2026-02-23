@@ -76,3 +76,36 @@ print(full_message)
 
 ```
 
+Là, On obtient un text encodé en base64 qu'on peut decoder facilement avec :
+
+```bash
+
+echo -n "IyBCYWNrdXAgY3JlZGVudGlhbHMgLSBETyBOT1QgU0hBUkUKIyBHZW5lcmF0ZWQ6IDIwMjUtMDEtMTUKCltkYXRhYmFzZV0KaG9zdCA9IDEwLjEwLjUwLjEyCnBvcnQgPSA1NDMyCnVzZXJuYW1lID0gc3ZjX2JhY2t1cApwYXNzd29yZCA9IEs4cyNQcm9kITIwMjV4WgoKW3NzaF9rZXlzXQphZG1pbl9oYXNoID0gJDYkcm91bmRzPTUwMDAkc2FsdHNhbHQkaGFzaGVkX3ZhbHVlX2hlcmVfcGxhY2Vob2xkZXIKClthcGldCmludGVybmFsX3Rva2VuID0gQ0NPSXttMG5fdHIzczByX2FfcXUxX3M0dXI0X2wzX3ByM25kcjNfISF9Cmp3dF9zZWNyZXQgPSBteVN1cDNyUzNjcmV0SldUIUtleTIwMjUKCltzbXRwXQpyZWxheSA9IHNtdHAuaW50ZXJuYWwuY29ycAp1c2VybmFtZSA9IGFsZXJ0c0Bjb3JwLmxvY2FsCnBhc3N3b3JkID0gU203cCFSM2xheSMyMDI1Cg==" | base64 -d
+
+```
+
+Le resultat:
+```text
+# Backup credentials - DO NOT SHARE
+# Generated: 2025-01-15
+
+[database]
+host = 10.10.50.12
+port = 5432
+username = svc_backup
+password = K8s#Prod!2025xZ
+
+[ssh_keys]
+admin_hash = $6$rounds=5000$saltsalt$hashed_value_here_placeholder
+
+[api]
+internal_token = CCOI{m0n_tr3s0r_a_qu1_s4ur4_l3_pr3ndr3_!!}
+jwt_secret = mySup3rS3cretJWT!Key2025
+
+[smtp]
+relay = smtp.internal.corp
+username = alerts@corp.local
+password = Sm7p!R3lay#2025
+
+
+```
