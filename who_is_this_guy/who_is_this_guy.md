@@ -24,4 +24,4 @@ En cliquant sur le lien "website" présent sur Replit, nous sommes redirigés ve
 ---
 
 ## 🚩 Flag
-![CCOI2026{th47_w45_4_l0n6_j0urn3y}](who_is_this_guy/flag.png)
+![CCOI2026{th47_w45_4_l0n6_j0urn3y}](flag.png)
